@@ -6,8 +6,10 @@ jobs:
   job1:
     runs-on: ubuntu-latest
     steps:
-      - name: Step in Job1
-        run: echo "This is Job 1 running"
+      - name: create file
+        run: echo "This is Job 1 running" > data.txt
+      -name: upload file as artifact
+        run: actions/upload-artifact@v4
 
   job2:
     runs-on: ubuntu-latest
