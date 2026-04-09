@@ -1,2 +1,9 @@
-print("hello world")
-print("this is farheen")
+a=10
+b=5
+print("a-b")
+
+def subtract(a,b):
+    return a-b
+    a=10
+    b=5
+    print("a-b=",subtract(a,b))
