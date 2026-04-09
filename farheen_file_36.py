@@ -1,2 +1,3 @@
-print("hello world")
-print("this is farheen")
+a=10
+b=5
+print("a-b"")
